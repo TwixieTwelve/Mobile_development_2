@@ -24,8 +24,12 @@
 
         <service android:name=".BoundService" />
 
+        <activity android:name=".SecondActivity" />
         <activity
+
+
             android:name=".MainActivity"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
